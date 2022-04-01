@@ -10,7 +10,7 @@ if len(sys.argv) == 0:
 url = sys.argv[1]
 while True:
 
-    cmd = input('CMD ->')
+    cmd = input('$ ')
     if cmd == 'q' or cmd == 'quit' or cmd == 'exit':
         break
     key = f'system.run[({cmd})]'
